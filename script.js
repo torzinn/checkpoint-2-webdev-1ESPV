@@ -1,127 +1,141 @@
-// // // // // // // // //Questão 1 ---
+// // // // // // // // // //Questão 1 ---
 
-// // // // // // // // let tarefaConcluida = true;
+// // // // // // // // // let tarefaConcluida = true;
 
-// // // // // // // // if (tarefaConcluida === true) {
-// // // // // // // //     console.log("A tarefa está concluída!");
+// // // // // // // // // if (tarefaConcluida === true) {
+// // // // // // // // //     console.log("A tarefa está concluída!");
+// // // // // // // // // } else {
+// // // // // // // // //     console.log("A tarefa não foi concluída.");
+// // // // // // // // // }
+
+
+// // // // // // // // // Questão 2 ---
+
+
+// // // // // // // // let prioridade = 2; 
+
+// // // // // // // // if (prioridade === 1) {
+// // // // // // // //     console.log("Prioridade Baixa");
+// // // // // // // // } else if (prioridade === 2) {
+// // // // // // // //     console.log("Prioridade Média");
+// // // // // // // // } else if (prioridade === 3) {
+// // // // // // // //     console.log("Prioridade Alta");
 // // // // // // // // } else {
-// // // // // // // //     console.log("A tarefa não foi concluída.");
+// // // // // // // //     console.log("Valor de prioridade inválido");
 // // // // // // // // }
 
 
-// // // // // // // // Questão 2 ---
+// // // // // // // //Questão 3
 
+// // // // // // // let diaSemana = new Date().getDay();
 
-// // // // // // // let prioridade = 2; 
-
-// // // // // // // if (prioridade === 1) {
-// // // // // // //     console.log("Prioridade Baixa");
-// // // // // // // } else if (prioridade === 2) {
-// // // // // // //     console.log("Prioridade Média");
-// // // // // // // } else if (prioridade === 3) {
-// // // // // // //     console.log("Prioridade Alta");
-// // // // // // // } else {
-// // // // // // //     console.log("Valor de prioridade inválido");
+// // // // // // // switch (diaSemana) {
+// // // // // // //   case 0:
+// // // // // // //     console.log("Domingo");
+// // // // // // //     break;
+// // // // // // //   case 1:
+// // // // // // //     console.log("Segunda-feira");
+// // // // // // //     break;
+// // // // // // //   case 2:
+// // // // // // //     console.log("Terça-feira");
+// // // // // // //     break;
+// // // // // // //   case 3:
+// // // // // // //     console.log("Quarta-feira");
+// // // // // // //     break;
+// // // // // // //   case 4:
+// // // // // // //     console.log("Quinta-feira");
+// // // // // // //     break;
+// // // // // // //   case 5:
+// // // // // // //     console.log("Sexta-feira");
+// // // // // // //     break;
+// // // // // // //   case 6:
+// // // // // // //     console.log("Sábado");
+// // // // // // //     break;
+// // // // // // //   default:
+// // // // // // //     console.log("Dia inválido");
 // // // // // // // }
 
+// // // // // // //Questão 4 ---
 
-// // // // // // //Questão 3
-
-// // // // // // let diaSemana = new Date().getDay();
-
-// // // // // // switch (diaSemana) {
-// // // // // //   case 0:
-// // // // // //     console.log("Domingo");
-// // // // // //     break;
-// // // // // //   case 1:
-// // // // // //     console.log("Segunda-feira");
-// // // // // //     break;
-// // // // // //   case 2:
-// // // // // //     console.log("Terça-feira");
-// // // // // //     break;
-// // // // // //   case 3:
-// // // // // //     console.log("Quarta-feira");
-// // // // // //     break;
-// // // // // //   case 4:
-// // // // // //     console.log("Quinta-feira");
-// // // // // //     break;
-// // // // // //   case 5:
-// // // // // //     console.log("Sexta-feira");
-// // // // // //     break;
-// // // // // //   case 6:
-// // // // // //     console.log("Sábado");
-// // // // // //     break;
-// // // // // //   default:
-// // // // // //     console.log("Dia inválido");
+// // // // // // for (let i = 0; i < 10; i++) {
+// // // // // //   console.log(i);
 // // // // // // }
 
-// // // // // //Questão 4 ---
+// // // // // //Questão 5 -- 
 
-// // // // // for (let i = 0; i < 10; i++) {
-// // // // //   console.log(i);
+// // // // // let i = 1;
+// // // // // let soma = 0;
+
+// // // // // while (i <= 5) {
+// // // // //   soma += i;
+// // // // //   i++;
 // // // // // }
 
-// // // // //Questão 5 -- 
+// // // // // console.log("Soma total:", soma);
 
-// // // // let i = 1;
-// // // // let soma = 0;
+// // // // //Questão 6 ---
 
-// // // // while (i <= 5) {
-// // // //   soma += i;
-// // // //   i++;
-// // // // }
+// // // // let i = 3;
 
-// // // // console.log("Soma total:", soma);
+// // // // do {
+// // // //   console.log(i);
+// // // //   i--;
+// // // // } while (i >= 1);
 
-// // // //Questão 6 ---
+// // // // console.log("FIM!");
 
-// // // let i = 3;
+// // // //Questão 7 --- 
 
-// // // do {
-// // //   console.log(i);
-// // //   i--;
-// // // } while (i >= 1);
+// // // function verificarIdade(idade) {
+// // //     if (idade < 18) {
+// // //         return "Menor de idade";
+// // //     } else if (idade >= 18 && idade < 60) {
+// // //         return "Maior de idade";
+// // //     } else {
+// // //         return "Idoso";
+// // //     }
+// // // }
 
-// // // console.log("FIM!");
+// // // console.log(verificarIdade(10));
+// // // console.log(verificarIdade(18)); 
+// // // console.log(verificarIdade(45));  
+// // // console.log(verificarIdade(60));  
+// // // console.log(verificarIdade(75));  
 
-// // //Questão 7 --- 
+// // //Questão 8 ---
 
-// // function verificarIdade(idade) {
-// //     if (idade < 18) {
-// //         return "Menor de idade";
-// //     } else if (idade >= 18 && idade < 60) {
-// //         return "Maior de idade";
-// //     } else {
-// //         return "Idoso";
-// //     }
-// // }
+// // let temSenhaCorreta = false; 
+// // let temBiometriaAutenticada = false; 
 
-// // console.log(verificarIdade(10));
-// // console.log(verificarIdade(18)); 
-// // console.log(verificarIdade(45));  
-// // console.log(verificarIdade(60));  
-// // console.log(verificarIdade(75));  
+// // let acessoPermitido = temSenhaCorreta || temBiometriaAutenticada;
 
-// //Questão 8 ---
+// // console.log("Acesso permitido:", acessoPermitido);
+// // console.log("Acesso negado:", !acessoPermitido);
 
-// let temSenhaCorreta = false; 
-// let temBiometriaAutenticada = false; 
+// //Questão 9 ---
 
-// let acessoPermitido = temSenhaCorreta || temBiometriaAutenticada;
+// let tarefas = "Estudar matemática, Fazer exercícios, Ler livro, Estudar programação, Jogar futebol";
 
-// console.log("Acesso permitido:", acessoPermitido);
-// console.log("Acesso negado:", !acessoPermitido);
+// let arrayTarefas = tarefas.split(", ");
 
-//Questão 9 ---
+// let tarefasFormatadas = arrayTarefas.join(" | ");
 
-let tarefas = "Estudar matemática, Fazer exercícios, Ler livro, Estudar programação, Jogar futebol";
+// let contemEstudar = tarefas.includes("Estudar");
 
-let arrayTarefas = tarefas.split(", ");
+// console.log("Array de tarefas:", arrayTarefas);
+// console.log("Tarefas formatadas:", tarefasFormatadas);
+// console.log("Contém 'Estudar'? :", contemEstudar);
 
-let tarefasFormatadas = arrayTarefas.join(" | ");
+//Questão 10 
 
-let contemEstudar = tarefas.includes("Estudar");
+function calcularAreaCirculoAleatorio() {
+   
+    let raio = Math.random() * (15 - 5) + 5;
 
-console.log("Array de tarefas:", arrayTarefas);
-console.log("Tarefas formatadas:", tarefasFormatadas);
-console.log("Contém 'Estudar'? :", contemEstudar);
+    let area = Math.PI * Math.pow(raio, 2);
+
+    console.log("Raio:", raio.toFixed(2));
+    console.log("Área do círculo:", area.toFixed(2));
+}
+
+calcularAreaCirculoAleatorio();
